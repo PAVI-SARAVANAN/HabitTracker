@@ -1,0 +1,111 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home-page-header{
+    display: flex;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid grey;
+    box-shadow:
+     0 0.5rem 0.8rem 0rem rgb(180, 180, 180),
+     0 0.5rem 3rem 0.2rem rgb(150, 90, 60) inset;
+    border-top: none;
+}
+.home-page-header > h3{
+    text-align: center;
+    font-size: 2rem;
+    color: #F47920;               
+}
+.home-page-content{
+    display: flex;
+    margin-top: 2rem;
+}
+.left{
+    width: 50%;
+    box-shadow: 0 0rem 0.4rem 0rem rgb(150, 90, 60);
+   
+}
+.left > img{
+    max-width: 100%;
+    
+}
+.right{
+    width: 50%;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+}
+.add{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: #F47920; 
+    color: #fff;
+    border: 1px solid #f59a59;
+    position: absolute;
+    right: 1rem;
+    
+}
+.right-content-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 5rem;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.habit-name{
+    flex-grow: 5;
+}
+.habit-goal{
+    flex-grow: 2;
+}
+li{
+    width: 25rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: #F47920; 
+    color: #fff;
+    border: 1px solid #f59a59;      
+    display: flex;
+    align-items:center; 
+    padding-left: 1rem;
+}
+.habit-list-button{      
+        background-color: #F47920; 
+        color: #fff;  
+        border: none;
+        flex-grow: 2;
+}
+.options{
+    align-items: center;
+    flex-direction: column;
+    border:1px solid #F47920;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5px;
+    list-style-type: none;
+}
+.options-button{
+    width: 100%;
+    background-color: #fff;
+    font-size: 1rem;
+    border-radius:5px;
+    border-width: 1px 1px 1px 1px;
+    height: 2.3rem;
+    border-color: #F47920;
+    color: #000;
+}
+.options-button:hover{
+    box-shadow:
+    0 1rem 3rem 0rem #f58e44 inset;
+}

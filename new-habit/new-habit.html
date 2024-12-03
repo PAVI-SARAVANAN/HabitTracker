@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Habit</title>   
+        <link href="new-habit.css" rel="stylesheet">     
+    </head>
+    <body>
+        <div class="habit-form">
+            <dialog open>
+                <div class="header">
+                <h3> ENTER A NEW HABIT</h3>
+                </div>
+            
+                <div class="habit-inputs">
+                
+                    <p class="habit">
+                        <label for="habit-input">Habit</label>
+                        <input type="text" id="habit-input" class="habit-input" required>
+                    </p>
+                    <p class="goal">
+                        <label for="goal-input">Goal</label>
+                        <input type="text" id="goal-input" class="goal-input" required>
+                        <select name="goal-type" id="goal-type" required>
+                            <option value="">Please choose a value:</option>
+                            <option value="times">times</option>
+                            <option value="Days">Days</option>
+                            <option value="hr">hr</option>
+                            <option value="min">min</option>
+                            <option value="km">km</option>
+                        </select>
+                    </p>
+                </div> 
+                <div class="habit-footer">
+                    <button class="save" type="button">Save</button>
+                    <button class="cancel" type="button">Cancel</button>
+                </div>
+            </dialog>          
+        </div>
+    </body>
+</html>
+

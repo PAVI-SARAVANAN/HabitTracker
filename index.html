@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Habit Tracker</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="home-page" id="home-page">
+            <div class="home-page-header">
+                <h3>HABIT TRACKER</h3>
+            </div>           
+            <div class="home-page-content">
+                <div class="left">
+                   <img src="Habit.png" alt="Habit-Tracker" height="auto"> 
+                </div>
+                <div class="right">
+                    <div class="right-content">
+                        <div class="right-header">
+                            <button class="add" type="button" id="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                                </svg>
+                                  New
+                            </button>
+                        </div>
+                        <div class="right-content-list" id="right-content-list">
+                            <ul id="habit-list">
+                                
+                            </ul>   
+                            <div id="options" style="display: none; position: absolute;" class="options">
+                                <button type="button" class="options-button" id="edit-habit">Edit</button>
+                                <button type="button" class="options-button" id="complete-habit">Complete</button>                                
+                            </div>                        
+                        </div>                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <script src="main.js" type="module"></script>
+    </body>
+</html>
